@@ -60,6 +60,13 @@ label {
   margin: 0 auto;
 }
 
+@media (max-width: 767px) {
+  .task-sheet-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .links-container {
   margin-right: auto;
   margin-top: auto;
@@ -94,12 +101,15 @@ input {
   padding: 11px;
 }
 
-.input-footer {
-  
-}
 
 .labels {
   margin: 15px 50px 0 50px;
+}
+
+@media (max-width: 767px) {
+  .labels, #task-desc, #amount-harvested, #time-spent, #date-input,#speacies, button {
+    margin: 10px 0px;
+  }
 }
 
 
